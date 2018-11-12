@@ -1,0 +1,247 @@
+/*
+* @Author: lenovo
+* @Date:   2018-11-07 11:06:31
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-11-07 17:55:54
+*/
+header{
+	width: 7.5rem;
+	height: 0.9rem;
+	background: #ea6621;
+}
+header .title{
+	width: 2.4rem;
+	height: 100%;
+	float: left;
+	color: #fff;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+header input{
+	width: 4.26rem;
+	height: 0.42rem;
+	/* background: #fff; */
+	background-image: url('../img/search.png');
+	background-size: 0.35rem 0.35rem;
+	background-repeat: no-repeat;
+	background-position: 0.14rem 0.04rem;
+	border-radius: 0.21rem;
+	border: none;
+	margin: 0.24rem 0 0 0.25rem;
+	float: left;
+	padding-left: 0.57rem;
+	/* input中输入文字的颜色 */
+	color: red;
+}
+/* 修改input中提示性文字的颜色 */
+::-webkit-input-placeholder{
+	color: green;
+}
+.banner{
+	width: 100%;
+	height: 3.3rem;
+	background: green;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner .dotbox{
+	width: 2rem;
+	height: 0.1rem;
+	background: pink;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0.1rem;
+}
+nav{
+	width: 100%;
+	height: 3.98rem;
+	padding: 0 0.24rem;
+}
+nav ul{
+	width: 100%;
+	height: 100%;
+	border-bottom: 0.01rem solid #333;
+	padding: 0.36rem 0.5rem;
+	position: relative;	
+}
+nav ul li{
+	width: 1.1rem;
+	height: 1.45rem;
+	float: left;
+	margin-right: 0.4rem;
+	margin-bottom: 0.25rem;
+}
+nav ul li:nth-child(4){
+	margin-right: 0;
+}
+nav ul li:nth-child(8){
+	margin-right: 0;
+}
+nav ul li img{
+	display: block;
+	width: 100%;
+	height: 1.1rem;
+}
+nav ul li h6{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+nav ul .dotbox{
+	width: 0.35rem;
+	height: 0.09rem;
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0.16rem;
+}
+main{
+	width: 100%;
+	padding: 0 0.24rem;
+	margin-bottom: 0.98rem;
+}
+main .title{
+	width: 100%;
+	height: 1.2rem;
+	background-image: url('../img/12_03.png');
+	background-size: cover;
+	background-position: center;
+	color: #333;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+main ul{
+	width: 100%;
+}
+main ul li{
+	width: 100%;
+	height: 2.55rem;
+	box-shadow: 0 0 0.05rem 0.01rem rgba(0, 0, 0, 0.2);
+	margin-bottom: 0.2rem;
+	border-radius: 0.1rem;
+}
+main ul li .pic{
+	width: 2.16rem;
+	height: 100%;
+	float: left;
+}
+main ul li .pic img{
+	width: 1.55rem;
+	height: 1.22rem;
+	display: block;
+	margin: 0.66rem auto;
+	border-radius: 0.05rem;
+	box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.1);
+}
+main ul li .text{
+	width: 4.84rem;
+	height: 100%;
+	float: right;
+	font-size: 0.24rem;
+}
+main ul li .text h3{
+	font-size: 0.24rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.15rem;
+}
+main ul li .text .text1{
+	overflow: hidden;
+}
+main ul li .text .text1 .star{
+   float: left;
+   color: orange;
+   margin-right: 0.2rem;
+}
+main ul li .text .text1 .num{
+   float: left;
+   margin-right: 0.3rem;
+}
+main ul li .text .text1 .time{
+   float: left;
+}
+main ul li .text .text2{
+	width: 100%;
+	margin-top: 0.05rem;
+	font-size: 0.26rem;
+	overflow: hidden;
+}
+main ul li .text .text2 span{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: orange;
+	color: #fff;
+	text-align: center;
+	line-height: 0.26rem;
+	font-size: 0.22rem;
+	display: block;
+	float: left;
+}
+main ul li .text .text2 p{
+	float: left;
+}
+main ul li .text .text4{
+	overflow: hidden;
+	font-size: 0.2rem;
+}
+main ul li .text .text4 .con1{
+	float: left;
+	margin-right: 0.4rem;
+}
+main ul li .text .text4 .con2{
+	float: left;
+	margin-right: 0.4rem;
+}
+main ul li .text .text4 .con3{
+	float: left;
+	margin-right: 0.4rem;
+}
+main ul li .text .text4 .con4{
+	float: left;
+	width: 1.11rem;
+	height: 0.25rem;
+	background: orange;
+	color: #fff;
+	text-align: center;
+	line-height: 0.25rem;
+	border-bottom-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+
+}
+
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: green;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer a{
+	display: block;
+	width: 25%;
+	height: 100%;
+	border: 0.01rem solid #000;
+	float: left;
+}
+footer a img{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0 auto;
+}
+footer a p{
+	width: 100%;
+	font-size: 0.22rem;
+	color: #000;
+	text-align: center;
+}
